@@ -123,8 +123,7 @@ int main(int argc, char **argv){
 int bias(int bias, int currentNode){
 	if (bias <= currentNode)
 		return 1;
-	else
-		return 0;
+	return 0;
 }
 
 void output(int node, int status, int currentBias){
